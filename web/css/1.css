@@ -1,0 +1,154 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 9, 2019, 11:26:38 AM
+    Author     : Nguyen Minh Dang
+*/
+
+.opbox{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    background-color: mediumpurple;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 0px 10px;;
+}
+.opbox:hover, .opbox:focus, .opbox:active{
+    -webkit-transform: skew(10deg);
+	transform: skew(10deg);
+	color:ghostwhite;
+	background:mediumpurple;
+    text-decoration:none;
+}
+
+.opboxadd{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    background-color: mediumpurple;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px 10px;
+    font-size: 150%;
+}
+
+.opboxadd:hover, .opboxadd:focus, .opboxadd:active{
+    -webkit-transform: skew(10deg);
+	transform: skew(10deg);
+	color:ghostwhite;
+	background:mediumpurple;
+    text-decoration: none;
+}
+.table-number-page {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+.table-number-page tr td {
+    border: 1px solid #000;
+    padding: 7px;
+    max-width: 50px;
+}
+
+.table-number-page tr td:hover {
+    background-color: mediumpurple;
+    color: white;
+}
+
+
+.opboxdis{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    background-color: tomato;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.opboxdis:hover, .opboxdis:focus, .opboxdis:active{
+    -webkit-transform: skew(10deg);
+	transform: skew(10deg);
+	color:ghostwhite;
+	background:tomato;
+    text-decoration:none;
+}
+
+.opboxen{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    background-color: mediumseagreen;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.opboxen:hover, .opboxen:focus, .opboxen:active{
+    -webkit-transform: skew(10deg);
+	transform: skew(10deg);
+	color:ghostwhite;
+	background:mediumseagreen;
+    text-decoration:none;
+}
+
+td{
+    vertical-align: middle;
+}
+
+.table td th {
+    vertical-align: middle;
+    display: block;
+    margin: auto;
+}

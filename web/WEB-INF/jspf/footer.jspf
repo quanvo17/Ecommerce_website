@@ -1,0 +1,72 @@
+.<%-- 
+    Document   : footer
+    Created on : Oct 9, 2019, 9:00:10 PM
+    Author     : Nguyen Minh Dang
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            a:hover{
+                text-decoration: underline;
+            }
+            a:link, a:visited{
+                color: silver;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="footer">
+            <div class="footer-middle">
+                <div class="container">
+                    <div class="col-md-4 footer-middle-in">
+                        <a href="index.jsp"><img src="images/log.png" alt=""></a>
+                        <p><a href="https://www.facebook.com/dang.nguyenminh99">Nguyen Minh Dang</a></p>
+                        <p><a href="https://www.facebook.com/profile.php?id=100006653326350">Vo Duc Quan</a></p>
+                        <p><a href="https://www.facebook.com/thuthanhbg9x">Nguyen Thi Thu Thanh</a></p>
+                        <p><a href="https://www.facebook.com/axit.clohidric.56">Phung Ngoc Minh</a></p>
+                        <p><a href="https://www.facebook.com/lam.lt.hust">Le Tung Lam</a></p>
+                    </div>
+
+                    <div class="col-md-4 footer-middle-in">
+                        <h6>Information</h6>
+                        <ul class=" in">
+                            <li><a href="404">About</a></li>
+                            <li><a href="404">Contact Us</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-4 footer-middle-in">
+                        <h6>Newsletter</h6>
+                        <span>Sign up for News Letter</span>
+                        <form>
+                            <input type="text" value="Enter your E-mail" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Enter your E-mail';}">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <ul class="footer-bottom-top">
+                        <li>
+                            <a href="#"><img src="images/f1.png" class="img-responsive" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/f2.png" class="img-responsive" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/f3.png" class="img-responsive" alt=""></a>
+                        </li>
+                    </ul>
+                    <p class="footer-class">&copy; Ecommerce | Design by <a href="h#" target="_blank">Nhóm 20</a> </p>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
